@@ -1,0 +1,9 @@
+.dropdown{
+    display: block;
+}
+
+
+.dropdown select{
+    border-radius: 10px;
+    height: 25px;
+}

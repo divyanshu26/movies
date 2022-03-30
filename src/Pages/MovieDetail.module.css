@@ -1,0 +1,93 @@
+.detail-container{
+    width: 900px;
+    height: 400px;
+    font-family: Helvetica,sans-serif;
+    background: #fff;
+    color: #555;
+    margin: 10rem 15%;
+    min-height: 300px;
+    -webkit-box-shadow: -5px 5px 15px;
+    box-shadow: -5px 5px 15px;
+    border-radius: 5px;
+    position: relative;
+    padding:10px 40px 10px 5px ;
+
+}
+
+.movie-image{
+    position: absolute;
+    background-color: #dbdbdb;
+    box-shadow: -2px 2px 7px rgba(0 0 0 0.6);
+    width:350px;
+    height:500px;
+    right:-25px;
+    top:-2rem;
+    border-radius: 10px;
+}
+
+.movie-info{
+    width: 65%;
+    margin: 2% 2%;
+    height: 350px;
+    position: relative;
+}
+
+.country{
+    position: absolute;
+    right: 0;
+}
+
+.title{
+    padding-bottom: 8px;
+    color: #333;
+    text-transform: capitalize;
+    max-width: 400px;
+}
+
+.title a {
+    text-decoration: none;
+    color: #333;
+    line-height: 1.2;
+    font-size: 30px;
+}
+
+.title span{
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+.details{
+    padding-bottom: 24px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 12px;
+
+}
+
+.details span{
+    padding: 0 6px;
+    border-right: 1px solid #dbdbdb;
+}
+
+.details span:last-child{
+    border:none;
+}
+
+.director{
+    margin-bottom:10px;
+    width:100%
+}
+
+.post{
+    display: inline-block;
+    width:80px;
+    font-weight: bolder;
+}
+
+.synop{
+    border-top: 1px solid #dbdbdb;
+    margin-top: 10px;
+    padding-top: 30px;
+    line-height: 22px;
+
+}

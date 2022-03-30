@@ -1,0 +1,41 @@
+.table-container{
+   overflow: hidden;
+   text-align: left;
+   width: 100%;
+   border-radius: 15px;
+   display: table;
+}
+
+.table-container thead{
+    
+    background-color: rgba(4, 69, 153,0.4);
+    height: 5em;
+}
+
+.table-container th{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width:16%;
+    margin-top: 30px;
+}
+
+.table-container td{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width:18%;
+    border-bottom: 1px solid #dbdbdb;
+    padding-top:2em;
+    height:3em;
+}
+
+.body-row{
+    height: 5em;
+    
+}
+
+
+.table-container tr:hover{
+    background-color: rgba(4, 69, 153,0.2);
+}

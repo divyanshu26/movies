@@ -1,0 +1,38 @@
+.container{
+    margin-top: 7rem;
+    margin-left:5%;
+    margin-right: 5%;
+}
+
+.searchMovies{
+    display: flex;
+    width:100%;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.searchMovies input{
+    width: 40%;
+    height: 20px;
+    background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px;
+    border: 1px solid #ccc;
+    padding: 9px 10px 9px 32px;
+    border-radius: 10em;
+    font-size: large;
+}
+
+.searchMovies button{
+    width: 20%;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 10em;
+    padding: 15x 0 0px 0;
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.searchMovies div{
+    width:30%;
+    margin-left: 30%;
+    vertical-align: middle;
+}
